@@ -45,6 +45,8 @@ e097a04f31fc   laravel-docker_php         Up 4 seconds     laravel-docker_php_1
 
 ⑦laravel8系をインストール  
 /var/www# composer create-project --prefer-dist "laravel/laravel=8.*" .  
+
+"laravel/laravel=8.*" [ファイル名]ですが、"laravel/laravel=8.*" .と.を指定することでsrcのファイルが新たに作成され、そこにlaravelのソースが入ってきてくれます。  (docker-compose.ymlで.srcとvar/wwwを対応させているため。)  
 > @php artisan vendor:publish --tag=laravel-assets --ansi --force
 No publishable resources for tag [laravel-assets].
 Publishing complete.

@@ -1,4 +1,2 @@
 .env
-docker/mysql/data/
-docker/mysql/initdb.d
 phpmyadmin/sessions/

@@ -1,5 +1,5 @@
 # どんなdockerイメージを利用して構築をするか
-FROM php:8.0-apache
+FROM php:8.1-apache
 
 RUN cd /etc/apache2/mods-enabled \
     && ln -s ../mods-available/rewrite.load

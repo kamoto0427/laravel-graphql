@@ -1,1 +1,1 @@
-laravelとGraphQLの勉強用リポジトリ
+laravelとGraphQLの勉強用リポジトリ# laravel-graphql
